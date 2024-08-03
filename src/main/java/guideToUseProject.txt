@@ -1,0 +1,12 @@
+How to create database in workbench:
+create database bookmyshowdb;
+use bookmyshowdb;
+create user bookmyshowuser;
+grant all privileges on bookmyshowdb.* to bookmyshowuser;
+
+
+# How to connect to Database with IntelliJ
+Click on database icon -> click on +
+Go to Data Source -> Select MySQL
+Enter User and Database
+Test Connection -> Apply -> OK
